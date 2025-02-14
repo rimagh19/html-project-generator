@@ -1,0 +1,47 @@
+{
+  "name": "html-project-generator",
+  "version": "1.0.0",
+  "description": "A powerful and intuitive CLI tool to quickly scaffold HTML projects. Generate boilerplate HTML, CSS, and JavaScript files with a single command. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn node ./src/index.js",
+    "start": "node ./src/index.js"
+  },
+  "keywords": [
+    "html",
+    "generator",
+    "cli",
+    "project"
+  ],
+  "author": "Rima ALi <rimaAliDev@gmail.com> (/rima-ali.vercel.app)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/html-project-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/html-project-generator/issues"
+  },
+  "homepage": "https://github.com/your-username/html-project-generator#readme",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "files": [
+    "src",
+    "index.js"
+  ],
+  "dependencies": {
+    "bin": "^0.0.0",
+    "nodeman": "^1.1.2",
+    "unquirer": "^1.0.0",
+    "yarn": "^1.22.22"
+  },
+  "devDependencies": {
+    "eslint": "^9.19.0"
+  },
+  "type": "module",
+  "bin": {
+    "html-project-generator": "./src/index.js"
+  }
+}
